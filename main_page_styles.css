@@ -9,11 +9,11 @@
 }
 
 header, footer {
-	height: 25%;
+	height: 15%;
 	background-color: rgb(198, 217, 241);
 }
 main {
-	height: 50%;
+	height: 70%;
 	background-color: green;
 	display: flex;
 }
@@ -27,7 +27,7 @@ main {
 }
 .left-center > h3{
 	background-color: white;
-	min-width: 100px;
+	min-width: 150px;
 	padding: 5px;
 	margin-right: 16px;
 }
@@ -64,6 +64,7 @@ main {
 
 .section4 {
 	width: 25%;
+	font-size: 30px;
     background-color: rgb(253, 233, 217);
 }
 .item-right {
@@ -81,4 +82,7 @@ main {
 
 .border {
 	outline: 1px solid black;
+}
+.links-list {
+	font-size: 20px;
 }
