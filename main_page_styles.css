@@ -29,6 +29,7 @@ main {
 	background-color: white;
 	min-width: 100px;
 	padding: 5px;
+	margin-right: 16px;
 }
 
 
@@ -76,11 +77,8 @@ main {
 
 #x {
 	text-align: right;
-	margin-right: 16px;
 }
-#y {
-	margin-right: 16px;
-}
+
 .border {
 	outline: 1px solid black;
 }
