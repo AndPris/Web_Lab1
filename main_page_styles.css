@@ -6,19 +6,22 @@
 	background-color: red;
 	margin: 0px;
 	padding: 0px;
-	font-size: 3vh;
+	font-size: 3vmin;
 }
 
 header, footer {
 	height: 15%;
 	background-color: rgb(198, 217, 241);
+/*	overflow: auto;*/
 }
 main {
 	height: 70%;
 	background-color: green;
 	display: flex;
 }
-
+header>p{
+	font-size: 2.25vmin;
+}
 
 .left-center{
 	display: flex;
@@ -69,8 +72,8 @@ main {
 }
 
 .section4 {
+	padding-left: 10px;
 	width: 25%;
-	font-size: 4vh;
     background-color: rgb(253, 233, 217);
 }
 .item-right {
