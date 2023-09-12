@@ -12,7 +12,6 @@
 header, footer {
 	height: 15%;
 	background-color: rgb(198, 217, 241);
-/*	overflow: auto;*/
 }
 main {
 	height: 70%;
