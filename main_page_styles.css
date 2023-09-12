@@ -28,7 +28,7 @@ main {
 }
 .left-center > h3{
 	background-color: white;
-	min-width: 250px;
+	min-width: 150px;
 	padding: 5px;
 	margin-right: 16px;
 }
@@ -50,8 +50,13 @@ main {
 }
 .section3 {
 	width: 60%;
-	height: 100%;
-	background-color: white;
+    height: 100%;
+    background-color: white;
+    display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
 }
 
 .section5 {
@@ -65,7 +70,7 @@ main {
 
 .section4 {
 	width: 25%;
-	font-size: 5vh;
+	font-size: 4vh;
     background-color: rgb(253, 233, 217);
 }
 .item-right {
@@ -83,4 +88,7 @@ main {
 
 .border {
 	outline: 1px solid black;
+}
+.links-list>li>a:hover {
+        color: red;
 }
