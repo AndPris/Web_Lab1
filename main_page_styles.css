@@ -55,7 +55,7 @@ header>p{
     align-items: flex-end;
     flex-wrap: wrap;
 }
-.section3>img{
+.preview_img{
 	position: relative;
 	display: block-inline;
 	margin-left: auto;
