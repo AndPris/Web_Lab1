@@ -49,13 +49,20 @@ header>p{
 	background-color: rgb(253, 233, 217);
 }
 .section3 {
-	width: 60%;
+	    width: 60%;
     background-color: white;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
 }
-/*.section3>img{
+.section3>img{
+	position: relative;
 	display: block-inline;
 	margin-left: auto;
-}*/
+	height: 49%;
+	width: 49%;
+	max-height: 300px;
+}
 .section5 {
 	flex: 1;
 	width: 100%;
